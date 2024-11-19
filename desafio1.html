@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nomeProduto = prompt("Digite o nome do produto:");
+        let quantidadeProduto = prompt("Digite a quantidade desejada:");
+        let valorProduto = prompt("Digite o preço de cada unidade deste produto:");
+
+        let totalCompra = Number(quantidadeProduto) * Number(valorProduto);
+
+        alert("Você comprou " + quantidadeProduto + " unidades de " + nomeProduto + " por R$" + valorProduto + ", totalizando R$" + totalCompra);
+        console.log("O usuário digitou o nome do produto:", nomeProduto);
+        console.log("O usuário digitou a quantidade do produto:", quantidadeProduto);
+        console.log("O usuário digitou o valor do produto:", valorProduto);
+
+    </script>
+
+</body>
+</html>
